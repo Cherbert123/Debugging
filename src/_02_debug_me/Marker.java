@@ -13,13 +13,13 @@ class Marker
     { 
         if (mark >= 85) 
             System.out.println("High Distinction"); 
-        if (mark >= 75) 
+        if (mark >= 75  && mark < 85) 
             System.out.println("Distinction"); 
-        if (mark >= 65) 
+        if (mark >= 65  && mark < 75) 
             System.out.println("Credit"); 
-        if (mark >= 50) 
+        if (mark >= 50 && mark < 65) 
             System.out.println("Pass"); 
-        if (mark >= 45) 
+        if (mark >= 45 && mark < 50) 
             System.out.println("Concessional Pass"); 
         if (mark < 45) 
             System.out.println("Fail"); 
